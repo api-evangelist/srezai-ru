@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-srezai-ru is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://srezai.ru/
+СрезAI – поисковый API для ИИ‑агентов, предоставляющий живой веб‑поиск по русскоязычному интернету (Рунету), возможность рендеринга страниц браузером и выдачу чистого Markdown или JSON, что упрощает построение RAG‑проектов и цепочек запросов для больших языковых моделей. Сервис поддерживает REST‑API, Model Context Protocol (MCP), CLI‑инструменты и готовые скиллы, а также предлагает функции поиска изображений, извлечения данных по JSON‑схемам, проверки фактов и глубоких исследований. Компания ориентирована на российский рынок, но предоставляет интерфейсы на английском и русском языках.
+
+**Areas:** Company · Search · AI · API · Russia
+
+## srezai-ru on APIs.io
+
+Everything profiled for srezai-ru is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/srezai-ru/](https://apis.io/providers/srezai-ru/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [SrezAI API](https://apis.io/apis/srezai-ru/srezai-api/) — Search API for AI agents providing web search, rendering, and data extraction.
+- [srezai-ru API](https://apis.io/apis/srezai-ru/srezai-ru-api/) — srezai-ru API as documented publicly: 15 operations. Contract generated from the documentation by API Evangelist (2026-10-31); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1PartnerResponse](https://apis.io/schemas/srezai-ru/srezai-ru-get-api-v1-partner-response/)
+- [PostApiV1CrawlRequest](https://apis.io/schemas/srezai-ru/srezai-ru-post-api-v1-crawl-request/)
+- [PostApiV1ExtractRequest](https://apis.io/schemas/srezai-ru/srezai-ru-post-api-v1-extract-request/)
+- [PostApiV1MapRequest](https://apis.io/schemas/srezai-ru/srezai-ru-post-api-v1-map-request/)
+- [PostApiV1MediaRequest](https://apis.io/schemas/srezai-ru/srezai-ru-post-api-v1-media-request/)
+- [PostApiV1TranscriptRequest](https://apis.io/schemas/srezai-ru/srezai-ru-post-api-v1-transcript-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Srezai Ru Context](https://apis.io/jsonld/srezai-ru/srezai-ru-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [srezai-ru API Rules](https://apis.io/rules/srezai-ru/srezai-ru-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Srezai Ru Authentication](https://apis.io/security/srezai-ru/srezai-ru-authentication/)
+- [Srezai Ru Domain Security](https://apis.io/security/srezai-ru/srezai-ru-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Srezai Ru Scopes](https://apis.io/scopes/srezai-ru/srezai-ru-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Srezai Ru Plans Pricing](https://apis.io/plans/srezai-ru/srezai-ru-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Srezai Ru Rate Limits](https://apis.io/rate-limits/srezai-ru/srezai-ru-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://srezai.ru/)
+- [Documentation](https://srezai.ru/docs)
+- [Getting started](https://srezai.ru/docs/quickstart)
+- [Pricing](https://srezai.ru/pricing)
+- [Support](https://srezai.ru/support)
+- [Blog](https://srezai.ru/blog)
+- [Terms of service](https://srezai.ru/legal/terms)
+- [Privacy policy](https://srezai.ru/legal/privacy)
+- [GitHub](https://github.com/srezai-team)
+
+## API Evangelist rating
+
+**Kin Score 56.5** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 53.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 33.7 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 50.5 |
+
+**Agent readiness 38.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/srezai-ru/](https://apis.io/providers/srezai-ru/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for srezai-ru: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/srezai-ru/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
